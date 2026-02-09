@@ -1,40 +1,42 @@
-1️⃣ Bin2Dec 0️⃣ - Binary to Decimal Converter
-A simple yet effective tool to convert binary numbers (base 2) into decimal numbers (base 10). This project was developed to strengthen logic skills and master data manipulation within the .NET environment.
+# 1️⃣ Bin2Dec 0️⃣ - Binary to Decimal Converter
 
-🚀 Features Completed:
-[x] User Input: Accepts strings of binary digits via the console.
+A simple and efficient tool designed to convert binary numbers (base 2) into their decimal equivalents (base 10). This project focuses on strengthening core programming logic and mastering data manipulation within the .NET environment.
 
-[x] Strict Validation: Implementation of logic to ensure the user only enters 0s and 1s.
+## 🚀 Features Completed
 
-[x] Conversion Engine: Mathematical conversion logic using the power of 2 for each bit position.
+- [x] **User Input**: Captures binary strings directly from the console.
+- [x] **Input Validation**: Robust logic to ensure only `0`s and `1`s are processed, alerting the user of any invalid characters.
+- [x] **Mathematical Conversion**: Implementation of the base-2 conversion algorithm.
+- [x] **Instant Output**: Displays the final decimal result clearly in the terminal.
 
-[x] Real-time Output: Displays the calculated decimal result immediately to the user.
+## 🛠 Tech Stack
 
-🛠 Tech Stack:
-Language: C#
+* **Language:** C#
+* **Framework:** .NET (Console Application)
+* **Paradigm:** Object-Oriented Programming (OOP)
 
-Framework: .NET (Console Application)
+## 💻 How to Run
 
-Paradigm: Object-Oriented Programming (OOP)
+1.  **Prerequisites**: Ensure you have the [.NET SDK](https://dotnet.microsoft.com/download) installed.
+2.  **Clone the Repository**:
+    ```bash
+    git clone [https://github.com/VictoRGBC/Bin2Dec.git](https://github.com/VictoRGBC/Bin2Dec.git)
+    ```
+3.  **Navigate to Project**:
+    ```bash
+    cd Bin2Dec
+    ```
+4.  **Execute**:
+    ```bash
+    dotnet run
+    ```
 
-💻 How to Run:
-Ensure you have the .NET SDK installed on your machine.
+## 📜 Challenge Objectives Met
 
-Clone this repository:
+* Validation of user input to prevent errors.
+* The system allows up to 8 binary digits (or more depending on the implementation).
+* Alerts the user if any character other than 0 or 1 is entered.
 
-Bash
-git clone https://github.com/VictoRGBC/Bin2Dec.git
-Navigate to the project folder:
+---
 
-Bash
-cd Bin2Dec
-Run the application:
-
-Bash
-dotnet run
-📜 Challenge Rules Followed:
-The application identifies and alerts the user if any non-binary digit is entered.
-
-The logic focuses on iterative mathematical calculation rather than simple built-in library shortcuts.
-
-Author: Victor Gabriel Barros
+**Author:** [Victor Gabriel Barros](https://github.com/VictoRGBC)
