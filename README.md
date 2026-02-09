@@ -1,28 +1,40 @@
-**Tier:** 1-Beginner
+1️⃣ Bin2Dec 0️⃣ - Binary to Decimal Converter
+A simple yet effective tool to convert binary numbers (base 2) into decimal numbers (base 10). This project was developed to strengthen logic skills and master data manipulation within the .NET environment.
 
-Binary is the number system all digital computers are based on.
-Therefore it's important for developers to understand binary, or base 2,
-mathematics. The purpose of Bin2Dec is to provide practice and
-understanding of how binary calculations.
+🚀 Features Completed:
+[x] User Input: Accepts strings of binary digits via the console.
 
-Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
-and 1's, in any sequence and then displays its decimal equivalent.
+[x] Strict Validation: Implementation of logic to ensure the user only enters 0s and 1s.
 
-This challenge requires that the developer implementing it follow these
-constraints:
+[x] Conversion Engine: Mathematical conversion logic using the power of 2 for each bit position.
 
--   Arrays may not be used to contain the binary digits entered by the user
--   Determining the decimal equivalent of a particular binary digit in the
-    sequence must be calculated using a single mathematical function, for
-    example the natural logarithm. It's up to you to figure out which function
-    to use.
+[x] Real-time Output: Displays the calculated decimal result immediately to the user.
 
-## User Stories
+🛠 Tech Stack:
+Language: C#
 
--   [ ] User can enter up to 8 binary digits in one input field
--   [ ] User must be notified if anything other than a 0 or 1 was entered
--   [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+Framework: .NET (Console Application)
 
-## Bonus features
+Paradigm: Object-Oriented Programming (OOP)
 
--   [ ] User can enter a variable number of binary digits
+💻 How to Run:
+Ensure you have the .NET SDK installed on your machine.
+
+Clone this repository:
+
+Bash
+git clone https://github.com/VictoRGBC/Bin2Dec.git
+Navigate to the project folder:
+
+Bash
+cd Bin2Dec
+Run the application:
+
+Bash
+dotnet run
+📜 Challenge Rules Followed:
+The application identifies and alerts the user if any non-binary digit is entered.
+
+The logic focuses on iterative mathematical calculation rather than simple built-in library shortcuts.
+
+Author: Victor Gabriel Barros
